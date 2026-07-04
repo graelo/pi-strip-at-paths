@@ -1,0 +1,31 @@
+{
+  "name": "@graelo/pi-strip-at-paths",
+  "version": "0.1.0",
+  "description": "Strip the leading @ from @file references in interactive input so models don't treat @ as part of the filename",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "typescript": "^6.0.3"
+  },
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "keywords": [
+    "pi-package",
+    "pi",
+    "extension",
+    "input",
+    "file-reference",
+    "at-mention",
+    "path"
+  ],
+  "author": "",
+  "license": "MIT"
+}

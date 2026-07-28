@@ -4,13 +4,19 @@
   "description": "Strip the leading @ from @file references in interactive input so models don't treat @ as part of the filename",
   "type": "module",
   "main": "src/index.ts",
+  "files": [
+    "src"
+  ],
   "scripts": {
-    "build": "tsc",
     "check": "tsc --noEmit"
   },
   "devDependencies": {
     "@earendil-works/pi-coding-agent": "*",
+    "@types/node": "^22",
     "typescript": "^6.0.3"
+  },
+  "engines": {
+    "node": ">=22"
   },
   "pi": {
     "extensions": [
